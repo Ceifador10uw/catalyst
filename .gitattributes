@@ -1,0 +1,13 @@
+# This file is used to override language statistics
+# Default behavior
+*.css linguist-detectable
+*.map linguist-generated
+* text=auto eol=lf
+
+*.bat text eol=crlf
+*.yaml linguist-detectable=false
+dist/* linguist-vendored
+docs/** linguist-vendored   
+* text=auto
+
+# eof 1d133e5f
